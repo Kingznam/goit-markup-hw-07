@@ -231,7 +231,7 @@ address {
   justify-content: center;
   align-items: center;
   padding: 188px 0;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/office-table.jpg);
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/hero-image-mobile.jpg);
   background-size: cover;
 }
 
