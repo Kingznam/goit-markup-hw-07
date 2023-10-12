@@ -274,9 +274,9 @@ address {
 }
 
 .features-items {
-  display: flex;
-  column-gap: 24px;
-  justify-content: space-between;
+  display: block;
+  width: 100%;
+
 }
 
 .features-item {
@@ -290,7 +290,7 @@ address {
 .feature-image-wrapper {
   background-color: var(--cloud);
   display: inline-block;
-  padding: 24px 100px;
+  padding: 24px 16px;
   border-radius: 4px;
 }
 
@@ -500,7 +500,7 @@ address {
 }
 
 .team-members {
-  display: inline-flex;
+  display: block;
   column-gap: 24px;
   justify-content: center;
 }
@@ -533,6 +533,7 @@ address {
   display: flex;
   column-gap: 24px;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .customer-lists-item {
