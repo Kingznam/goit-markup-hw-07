@@ -1084,6 +1084,12 @@ only screen and (max-width: 427px) {
     width: 100%;
   }
 
+  .section-text {
+    padding: 0;
+    text-align: start;
+    justify-content: center;
+  }
+
   .section-sub-header {
     text-align: center;
     font-weight: 700;
@@ -1093,14 +1099,81 @@ only screen and (max-width: 427px) {
     margin-bottom: 8px;
   }
 
-  .section-text {
+  .team-members {
     width: 100%;
-    align-self: stretch;
-    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 72px;
   }
 
+  .team-images {
+    margin: 0;
+  }
 
+  .customer-lists {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 72px 16px;
 
+  }
+
+  .footer-container {
+    display: flex;
+    gap: 72px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .logo-text-container {
+    margin: 0 auto;
+    padding-top: 0;
+    display: inline-block;
+    text-align: center;
+  }
+
+  .footer-text {
+    text-align: start;
+  }
+
+  .footer-socials-container {
+    margin: 0 auto;
+  }
+
+  .social-media-text {
+    text-align: center;
+  }
+
+  .subscribe-container {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  .subscribe-text {
+    margin: 0 auto;
+  }
+
+  .subscribe-field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+    margin: 0 auto;
+  }
+
+  .subscribe-submit {
+    margin: 0 auto;
+  }
 }
 
 
