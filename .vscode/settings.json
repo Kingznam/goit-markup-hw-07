@@ -1,4 +1,5 @@
 {
   "editor.tabSize": 2,
-  "editor.indentSize": "tabSize"
+  "editor.indentSize": "tabSize",
+  "liveServer.settings.port": 5501
 }
